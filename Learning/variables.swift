@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// The variables mdule
 enum variables {
     /// The run method
     static func run() {
@@ -33,14 +34,12 @@ enum variables {
         applesAndOranges()
     }
     
-    
     /// Print the value as a width
     /// - Parameter value: The width as a string
     static func printWidth(value: String) {
         print(value)
     }
 
-    
     /// The apples and oranges function
     static func applesAndOranges() {
         let apples = 3
