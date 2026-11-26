@@ -11,7 +11,7 @@
     ],
   },
   "files": [
-    { "kind": "folder", "path": "MyTool", "target-membership": [ "MyTool" ] },
+    { "kind": "folder", "path": "Learning", "target-membership": [ "MyTool" ] },
     {
       "kind": "group",
       "name": "Products",
