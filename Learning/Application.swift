@@ -1,5 +1,5 @@
 //
-//  application.swift
+//  Application.swift
 //  Learning
 //
 //  Created by Jonathan Parker on 11/26/26.
@@ -8,13 +8,15 @@
 import Foundation
 
 /// The application module
-enum application {
+@main
+enum Application {
     /// The run function
-    static func run() {
+    static func main() {
         print("Hello, World!")
         print(hello(person: "Jonathan"))
         
-        variables.run()
+        Variables.run()
+        
         arrays()
         dictionaries()
     }

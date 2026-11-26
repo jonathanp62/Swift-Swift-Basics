@@ -1,5 +1,5 @@
 //
-//  variables.swift
+//  Variables.swift
 //  Learning
 //
 //  Created by Jonathan Parker on 11/26/26.
@@ -8,7 +8,7 @@
 import Foundation
 
 /// The variables mdule
-enum variables {
+enum Variables {
     /// The run method
     static func run() {
         // Variables - Here myVariable is declared but not initialized
