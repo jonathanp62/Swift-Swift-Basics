@@ -19,6 +19,7 @@ enum Application {
         Arrays.run()
         Dictionaries.run()
         ControlFlow.run()
+        Functions.run()
     }
     
     /// The hello function

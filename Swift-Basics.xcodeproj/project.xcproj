@@ -11,20 +11,20 @@
     ],
   },
   "files": [
-    { "kind": "folder", "path": "Learning", "target-membership": [ "MyTool" ] },
+    { "kind": "folder", "path": "Learning", "target-membership": [ "Learning" ] },
     {
       "kind": "group",
       "name": "Products",
       "children": [
-        { "path": "<PRODUCTS>/MyTool", "id": "000000000000000000000120", "type": "compiled.mach-o.executable", "index": false },
+        { "path": "<PRODUCTS>/Learning", "id": "000000000000000000000120", "type": "compiled.mach-o.executable", "index": false },
       ],
     },
   ],
   "targets": [
     {
-      "name": "MyTool",
+      "name": "Learning",
       "id": "000000000000000100000000",
-      "product": "Products/MyTool",
+      "product": "Products/Learning",
       "product-type": "tool",
       "build-phases": [
         "compile-sources",
