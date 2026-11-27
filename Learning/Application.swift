@@ -20,6 +20,8 @@ enum Application {
         Dictionaries.run()
         ControlFlow.run()
         Functions.run()
+        Closures.run()
+        Classes.run()
     }
     
     /// The hello function
